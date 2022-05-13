@@ -1,0 +1,39 @@
+.hero {
+  width: auto;
+  background-color: rgb(253, 249, 255);
+  padding: 50px 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero .contents {
+  margin: auto;
+  color: white;
+  text-align: center;
+  column-gap: flex;
+  display: grid;
+  top: 200px;
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 200px;
+}
+
+
+.main {
+  font-size: 45px;
+  color: black;
+}
+
+.sub-hero {
+  font-size: 24px;
+  font-weight: 100;
+  color: black;
+  letter-spacing: 0.5px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: rgb(208 145 200);
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
